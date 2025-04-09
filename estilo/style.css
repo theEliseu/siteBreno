@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Reset básico */
+:root{
+    --fontepadrao: 'Montserrat', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fontepadrao);
+    background: url(../imagens/camera1.jpg) no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Container do menu */
+#botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+/* Links centrais */
+.links-centro {
+    display: flex;
+    gap: 100px; 
+}
+
+/* Redes sociais à direita */
+.redes-direita {
+    position: absolute;
+    right: 20px;
+    display: block;
+    gap: 15px;
+}
+
+.redes-direita img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+}
+
+.links-centro a {
+    color: white;
+}
+h1 {
+    position: relative;
+    top:  300px;
+    left: 100px;
+    color: white;  
+}
+h2 {
+    position: relative;
+    top:  300px;
+    left: 100px;
+    color: white;  
+}
+
+
